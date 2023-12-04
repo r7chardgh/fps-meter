@@ -14,3 +14,4 @@ The idea was inspired by Krunker.io (a website-based first-person shooter). In t
 Remember to close all windows of Chrome first before testing.
 
 ## Live Page
+https://r7chardgh.github.io/fps-meter/
