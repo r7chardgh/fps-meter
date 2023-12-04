@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+@font-face {
+  font-family: "gameFont";
+  src: url("./font/font2.ttf");
+}
+body {
+  margin: 0;
+  background-color: rgb(63, 63, 63);
+  height: 100vh;
+  width: 100vw;
+}
+.fps {
+  color: rgb(72, 255, 0);
+}
+.fps-meter {
+  height: 30%;
+  position: relative;
+  background-color: grey;
+  font-family: "gameFont", "Orbitron", sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 30vh;
+  top: 35%;
+  text-align: center;
+}
+@media only screen and (max-height: 10em) {
+  .fps-meter {
+    height: 3em;
+    line-height: 3em;
+    top: 0;
+  }
+}
